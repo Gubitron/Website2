@@ -11,127 +11,83 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Welcome to Marius Engineering!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: Services.html
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: ""
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Automated Test"
+        desc: "Test sequence development;<br>
+        Operator UI development;<br>
+        Test report generation;<br>
+        Automation of measurement instruments;<br>
+        Automation of output and switching devices;<br>
+        "
+        icon: fas fa-robot
+      - title: "Data Acquisition"
+        desc: "Data acquisition using off-the-shelf instruments, embedded and PLC devices;<br>
+        Datalogging to file (TDMS, CSV, Databases, etc);<br>
+        Reconfigurable acquisition settings;<br>
+        Acquisition synchronization across devices;"
+        icon: fas fa-wave-square
+      - title: "Control Systems"
+        desc: "Real-time and FPGA layer programming;<br>
+        Stand-alone systems with/without an HMI;<br>
+        **Control theory background:** PID, Lead-Lag, State-Space and Predictive control;"
+        icon: fas fa-cogs
+      - title: "Software Development"
+        desc: "LabVIEW<br>
+        TestStand<br>
+        C#<br>
+        Matlab/Simulink<br>
+        C/C++<br>
+        Python"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Hardware"
+        desc: "
+        **National Instruments:** PXI, cDAQ, cRIO, USRP RIO and PC-based platforms;<br>
+        **Boxed instruments:** Agilent, Keysight, TTI, Keithley, Tektronix, Ametek and many others;<br>
+        **PLC devices:** Beckhoff, Delta;<br>
+        **Others:** Arduino, Raspberry Pi;"
+        icon: fas fa-microchip
+      - title: "Consultancy"
+        desc: "Design review;<br>
+        Proof of concept;<br>
+        LabVIEW and TestStand training;<br>
+        Help with choosing hardware;"
+        icon: fas fa-chalkboard-teacher
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Samples"
+    text: "This sections showcases the kind of software and documentation quality you can expect, when working with me."
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About"
+    text: "Marius Engineering"
+    body: "I'm dedicated to providing exceptional programming services to engineers and scientists, helping them achieve their goals without requiring years of programming experience. 
+    I also firmly believe that applications should be intuitive and effortless to use, saving users valuable time and effort. 
+    By continuously refining and validating my work, I ensure that the final product aligns seamlessly with your requirements.
+    <br><br>
+    With over 7 years of experience spanning diverse industries such as Aerospace, Defense, Rail, Energy, and Manufacturing, I bring a wealth of knowledge and expertise to every project.
+    As well as, extensive familiarity with National Instruments hardware and software solutions, due to me completing an internship there.
+    <br><br>
+    In 2018, I received my Certified LabVIEW Architect (CLA) and Certified TestStand Architect (CTA) certifications, solidifying my proficiency in these technologies. 
+    And I didn't stop there. Currently I am learning and using C# daily to further expand my skillset. As well as, tinkering with electronics at work and in my spare time.
+    <br><br>
+    If you're seeking programming services that prioritize your unique needs, software quality, and user satisfaction, look no further. 
+    Together, we can turn your vision into reality. [Contact me today to discuss your idea.](Contact.html)"
     section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Fill out the contact form below"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -147,16 +103,8 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -168,155 +116,61 @@ en-AU:
 
 # Spanish
 # -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
+# es: &DEFAULT_ES
+#   header:
+#     title: ¡Bienvenido a nuestro Estudio!
+#     text: Es un placer conocerle
+#     button: Ver más
+#     buttonlink: "#servicios"
 
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+#   services:
+#     title: "Servicios"
+#     text: "Lorem ipsum"
+#     section: servicios
+#     list:
+#       - title: "Comercio Electrónico"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+#       - title: "Diseño Responsivo"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-laptop
+#       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+#         desc: "Su descripción aquí, soporte completo de **Markdown**"
+#         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
+#   portfolio:
+#     title: "Portafolio"
+#     text: "Lorem ipsum dolor sit amet consectetur."
+#     section: portafolio
+#     closebutton: "Cerrar Proyecto"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+#   about:
+#     title: "Sobre nosotros"
+#     text: "nuestra historia"
+#     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+#     section: nosotros
 
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
+#   contact:
+#     title: "Contáctenos"
+#     text: "Lorem ipsum or call 123456789"
+#     section: contacto
+#     name: "Nombre*"
+#     name-validation: "Por favor ingrese su nombre."
+#     email: "Correo Electrónico*"
+#     email-validation: "Por favor ingrese su correo electrónico."
+#     phone: "Número Telefónico*"
+#     phone-validation: "Por favor ingrese su número telefónico."
+#     message: "Mensaje*"
+#     message-validation: "Por favor escriba un mensaje."
+#     subject: "Envío del formulario de contacto"
+#     submit: "Enviar Mensaje"
 
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+#   footer:
+#     legal: "Política de Privacidad"
+#     social:
+#       - url: https://linkedin.com
+#         icon: "fab fa-linkedin-in"
+# es-ES:
+#   <<: *DEFAULT_ES
+# es-CO:
+#   <<: *DEFAULT_ES
