@@ -15,7 +15,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://simplytestsystems.com/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/index.html" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Simply Test Systems
 email      :  #this is also the email contact forms will go to
