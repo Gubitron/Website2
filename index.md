@@ -1,3 +1,5 @@
 ---
-layout: HomeMinimal
+layout: page
 ---
+
+{% include services.html %}
