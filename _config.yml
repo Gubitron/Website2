@@ -12,7 +12,7 @@
 # in the templates via {{ site.myvariable }}.
 
 #theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
+# remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://simplytestsystems.com/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -41,4 +41,3 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-redirect-from
