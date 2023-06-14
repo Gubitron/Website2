@@ -64,7 +64,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Samples"
-    text: "This sections showcases the kind of software and documentation quality you can expect, when working with me."
+    text: "This sections showcases the kind of design, software and documentation quality you can expect, when working with me."
     section: portfolio
     closebutton: "Close Project"
 
@@ -88,7 +88,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Me"
-    text: "Fill out the contact form below or email<br> info@simplytestsystems.com"
+    text: "Fill out the contact form below or email<br> <b>info@simplytestsystems.com</b>"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."

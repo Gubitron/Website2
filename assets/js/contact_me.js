@@ -10,7 +10,7 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-	  var url = "https://formspree.io/" + "{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}";
+	  var url = "https://script.google.com/macros/s/AKfycbyRHv7Pn0HIflx-xJk76IyBHCSDNDa6tSKowtaseJ4NbZe1-DrRq_14PxBRNctwjngp/exec";
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
@@ -25,13 +25,13 @@ $(function() {
       $.ajax({
         url: url,
         type: "POST",
-	dataType: "json",
-        data: {
+	      dataType: "json",
+        data: JSON.stringify({
           name: name,
-          phone: phone,
           email: email,
+          phone: phone,
           message: message
-        },
+        }),
         cache: false,
 
 		success: function() {
