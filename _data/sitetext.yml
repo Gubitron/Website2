@@ -62,6 +62,13 @@ en: &DEFAULT_EN
         Help with choosing hardware;"
         icon: fas fa-chalkboard-teacher
 
+  experience:
+    title: "Experience"
+    text: "This section lists all of the projects that I have ever worked on. Professional, academic and personal."
+    section: experience
+    closebutton: "Close"
+
+
   portfolio:
     title: "Samples"
     text: "This sections showcases the kind of design, software and documentation quality you can expect, when working with me."

@@ -13,6 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       url: Services.html
+    - title: "Experience"
+      url: Experience.html
     # - title: "Samples"
     #   url: Samples.html
     # - title: "Clients"
