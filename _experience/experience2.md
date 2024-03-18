@@ -1,11 +1,11 @@
 ---
-title: Automated Test System for Testing a Missle Triggering Module
+title: A System for Testing 8 Missle Triggering Modules at a Time
 subtitle: Professional
 image: assets/img/portfolio/portfolio1/TS_OI.jpg
-alt: Automated Test System for Testing a Missle Triggering Module
+alt: A System for Testing 8 Missle Triggering Modules at a Time
 
 caption:
-  title: Automated Test System for Testing a Missle Triggering Module
+  title: A System for Testing 8 Missle Triggering Modules at a Time
   subtitle: Professional
   thumbnail: assets/img/portfolio/portfolio1/TS_OI.jpg
 ---

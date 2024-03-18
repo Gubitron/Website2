@@ -1,11 +1,11 @@
 ---
-title: Test Systems for Testing Railway Signals, Points and Data Link Modules
+title: Systems for Testing Railway Signals, Points and Data Link Modules
 subtitle: Professional
 image: assets/img/portfolio/portfolio1/TS_OI.jpg
-alt: Test Systems for Testing Railway Signals, Points and Data Link Modules
+alt: Systems for Testing Railway Signals, Points and Data Link Modules
 
 caption:
-  title: Test Systems for Testing Railway Signals, Points and Data Link Modules
+  title: Systems for Testing Railway Signals, Points and Data Link Modules
   subtitle: Professional
   thumbnail: assets/img/portfolio/portfolio1/TS_OI.jpg
 ---

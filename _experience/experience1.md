@@ -1,13 +1,13 @@
 ---
-title: Automated Test System for Testing a Jet Fighter Subsystem
+title: A System for Testing a Jet Fighter Component
 subtitle: Professional
-image: assets/img/portfolio/portfolio1/TS_OI.jpg
-alt: Automated Test System for Testing a Jet Fighter Subsystem
+image: assets/img/experience/Jet Fighter Test System.JPG
+alt: A System for Testing a Jet Fighter Component
 
 caption:
-  title: Automated Test System for Testing a Jet Fighter Subsystem
+  title: A System for Testing a Jet Fighter Component
   subtitle: Professional
-  thumbnail: assets/img/portfolio/portfolio1/TS_OI.jpg
+  thumbnail: assets/img/experience/Jet Fighter Test System.JPG
 ---
 ### Solution Description
 

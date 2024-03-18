@@ -11,4 +11,3 @@ caption:
 ---
 ### Solution Description
 
-Lorem Ipsum 
