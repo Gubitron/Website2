@@ -1,14 +1,17 @@
 ---
 title: A System to Calibrate a Wind Turbine Sensor using 12 Hydraulic Rams
 subtitle: Professional
-image: assets/img/portfolio/portfolio1/TS_OI.jpg
+image: assets/img/experience/Transducer Calibration Diagram.JPG
+ImageCaption: Image provided only for illustration purposes.
 alt: A System to Calibrate a Wind Turbine Sensor using 12 Hydraulic Rams
 
 caption:
   title: A System to Calibrate a Wind Turbine Sensor using 12 Hydraulic Rams
   subtitle: Professional
-  thumbnail: assets/img/portfolio/portfolio1/TS_OI.jpg
+  thumbnail: assets/img/experience/Transducer Calibration Diagram.JPG
 ---
 ### Solution Description
 
-Lorem Ipsum 
+LVDT + LOAD Cell + Ram
+
+Profiles to calibrate transducer measurements

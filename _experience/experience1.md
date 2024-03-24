@@ -2,6 +2,7 @@
 title: A System for Testing a Jet Fighter Component
 subtitle: Professional
 image: assets/img/experience/Jet Fighter Test System.JPG
+ImageCaption: Image provided only for illustration purposes.
 alt: A System for Testing a Jet Fighter Component
 
 caption:
