@@ -19,6 +19,3 @@ caption:
 The system used a python script to automate the training data acquisition process. The data would then get used by a Matlab script to train a Multilayer Perceptron model. The obtained coefficients would then be used by a control algorithm written in LabVIEW to control the prosthetic hand in real-time. This was achieved by executing pre-defined gestures, by controlling servo motors via an Arduino Uno, based on data received from the Myo armband.
 
 ![image tooltip here](/assets/img/experience/RT classification algorithm.png){: width="560" }{: height="315" }
-
-<!-- ![My tooltip](/assets/img/experience/Training.png){: width="560" }{: height="315" }
-![image tooltip here](/assets/img/experience/RT classification algorithm.png){: width="560" }{: height="315" } -->
