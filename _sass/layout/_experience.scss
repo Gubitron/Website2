@@ -77,10 +77,16 @@
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
+    text-align: justify;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
+      text-align: center;
+    }
+    h3 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      text-align: center;
     }
     p {
       margin-bottom: 30px;
@@ -88,14 +94,29 @@
     p.item-intro {
       font-size: 16px;
       font-style: italic;
+      text-align: center;
       margin: 20px 0 30px;
       @include serif-font;
+    }
+    iframe {
+      display: block;
+      border-style:none;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    figcaption {
+      font-size: 12px;
+      font-style: italic;
+      text-align: center;
     }
     ul.list-inline {
       margin-top: 0;
       margin-bottom: 30px;
     }
     img {
+      display: block;
+      border-style:none;
+      margin: auto;
       margin-bottom: 30px;
     }
     button {

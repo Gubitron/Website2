@@ -78,19 +78,21 @@ en: &DEFAULT_EN
   about:
     title: "About"
     text: "Simply Test Systems"
-    body: "Welcome to Simply Test Systems, your premier destination for programming and engineering services tailored to engineers and scientists. 
-    My name is Marius, and I created this website with a single-minded goal: to empower professionals like you to achieve remarkable results, even without extensive programming experience.<br><br>
+    body: "My name is Marius, and I created this website with a single goal in mind: to empower professionals like you to achieve remarkable results, even without extensive programming experience.<br>
 
-    With an impressive track record spanning over 7 years, I have had the privilege of serving diverse industries including Aerospace, Defense, Rail, Energy, and Manufacturing. 
-    This breadth of experience equips me with a wealth of knowledge and expertise to bring to every project. 
-    Furthermore, my internship at National Instruments has provided me with extensive familiarity with their hardware and software solutions.<br><br>
+    I help engineers and scientists develop bespoke measurement, automated test and control solutions. 
+    During my 8 years as a professional engineer I have had the privilege of serving diverse industries including: Aerospace, Defense, Rail, Energy, and Manufacturing. 
+    This broad range of experience allows me to work on any project you can think of, while also allowing me to combine my experiences from different sectors to arrive at creative solutions for your problems.<br>
 
-    In 2018, I earned my Certified LabVIEW Architect (CLA) and Certified TestStand Architect (CTA) certifications, solidifying my proficiency in these technologies. 
-    However, my pursuit of excellence doesn't stop there. I am currently engaged in daily learning and utilization of C#, further expanding my skillset. 
-    Additionally, I indulge my passion for electronics by tinkering with them both at work and in my spare time.<br><br>
+    I am most comfortable working with National Instruments hardware together with LabVIEW and Testand. 
+    In 2018, I earned my Certified LabVIEW Architect (CLA) and Certified TestStand Architect (CTA) certifications, proving that I know a thing or two about these tools.
+    However, I am also very comfortable providing solutions in C#, while also able to work with C++ and Python.<br>
+
+    Since I come from a Systems Engineering background, I don't just code, but also like to get heavily involved in the electrical and mechanical side of projects. The more hands-on - the better! 
+    I also feel very comfortable reading electrical schematics and I have gotten fairly fast with CAD software.<br>
 
     If you are in search of programming services that prioritize your unique needs, software quality, and user satisfaction, your search ends here. 
-    Together, we can transform your vision into a tangible reality. Waste no time – [reach out to me today](Contact.html) to discuss your brilliant ideas and let's embark on an exciting journey together."
+    Together, we can transform your vision into reality. Waste no time – [reach out to me today](Contact.html) to discuss your brilliant ideas and let's embark on an exciting journey together."
     section: about
 
   contact:
